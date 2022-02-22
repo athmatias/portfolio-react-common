@@ -1,0 +1,7 @@
+{
+  "*.{js,tsx}": [
+    "eslint --fix",
+    "prettier --write"
+  ],
+  "*.scss": "stylelint --custom-syntax=postcss-scss"
+}

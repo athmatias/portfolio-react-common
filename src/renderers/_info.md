@@ -1,0 +1,1 @@
+Renderers folder keeps component renderes helpers for another components.

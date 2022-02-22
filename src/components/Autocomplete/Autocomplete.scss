@@ -1,0 +1,20 @@
+.Autocomplete-input {
+  &.Mui-error {
+    label {
+      color: red;
+    }
+    fieldset {
+      border: 1px solid red;
+    }
+    button {
+      svg {
+        color: red;
+      }
+    }
+  }
+  &.Mui-error.Mui-focused {
+    fieldset {
+      border: 1px solid red;
+    }
+  }
+}
