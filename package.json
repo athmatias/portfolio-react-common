@@ -30,8 +30,7 @@
     "build-storybook": "build-storybook -s public",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
-    "stylelint:css": "stylelint src/**/*.scss --syntax=scss",
-    "postinstall": "husky install"
+    "stylelint:css": "stylelint src/**/*.scss --syntax=scss"
   },
   "browserslist": {
     "production": [
@@ -62,7 +61,6 @@
     "@typescript-eslint/eslint-plugin": "^5.11.0",
     "@typescript-eslint/parser": "^5.11.0",
     "eslint": "^8.9.0",
-    "husky": "^7.0.4",
     "jest-watch-typeahead": "^0.6.5",
     "lint-staged": "^12.3.4",
     "sass": "^1.49.7",
